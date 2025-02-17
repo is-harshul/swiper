@@ -30,13 +30,13 @@ A Node.js script to sweep (copy or move) specific types of files from a target d
    - Ensure Node.js is installed on your system. You can download it from [nodejs.org](https://nodejs.org/).
 
 2. **Download the Script**:
-   - Save the script to a file, e.g., `sweepFiles.js`.
+   - Save the script to a file, e.g., `index.js`.
 
 3. **Run the Script**:
    - Open a terminal and navigate to the directory where the script is saved.
    - Run the script using Node.js:
      ```bash
-     node sweepFiles.js
+     node index.js
      ```
 
 ---
@@ -46,7 +46,7 @@ A Node.js script to sweep (copy or move) specific types of files from a target d
 ### Basic Usage
 1. Run the script:
    ```bash
-   node sweepFiles.js
+   node index.js
    ```
 2. Follow the prompts:
    - Enter the file types (comma-separated, e.g., `mp4, mkv, mp3`).
@@ -98,7 +98,7 @@ A Node.js script to sweep (copy or move) specific types of files from a target d
 
 1. **Script Doesn’t Run**:
    - Ensure Node.js is installed and accessible from the terminal.
-   - Verify the script file (`sweepFiles.js`) is in the correct directory.
+   - Verify the script file (`index.js`) is in the correct directory.
 
 2. **No Files Are Copied/Moved**:
    - Check the target directory path and ensure it contains files with the specified extensions.
